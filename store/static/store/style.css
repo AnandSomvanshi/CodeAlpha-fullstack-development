@@ -1,0 +1,38 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+.navbar {
+    background-color: #007bff !important;
+}
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+.btn-primary {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+.btn-success {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: black;
+}
+.list-group-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.container {
+    max-width: 1200px;
+}
